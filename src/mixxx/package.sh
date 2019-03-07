@@ -18,7 +18,7 @@ field shortcuts[0][0] "Mixxx\\mixxx.exe"
 field shortcuts[0][1] "Mixxx"
 field shortcuts[0][2] "--settingsPath \"\$persist_dir\\appdata\""
 
-field persist[0] appdata
+field persist appdata
 
 field license "GPL-2.0+"
 
