@@ -5,15 +5,13 @@ field homepage https://mumble.info
 field license GPL
 field version "0.0.0"
 
+field url "_"
+field hash "_"
+
 # field autoupdate.url "https://dl.mumble.info/mumble-<version>.msi"
 field autoupdate.url "https://github.com/mumble-voip/mumble/releases/download/\$version/mumble-\$version.msi#/mumble.bin"
 
 field checkver.github https://github.com/mumble-voip/mumble
-
-field architecture.\"32bit\".url ""
-field architecture.\"32bit\".hash ""
-field architecture.\"64bit\".url ""
-field architecture.\"64bit\".hash ""
 
 field bin[0] Mumble\\mumble.exe
 
