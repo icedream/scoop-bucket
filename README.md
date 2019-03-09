@@ -4,6 +4,8 @@ This repository contains the source files to generate Scoop-compatible packages
 for the following software:
 
 - Mixxx ([`mixxx`](src/mixxx) and [`mixxx-nightly`](src/mixxx-nightly))
+- PuTTY ([`putty-snapshot`](src/putty-snapshot)
+- Mumble ([`mumble`](src/mumble))
 
 Later, this repository will be usable directly from Scoop as a bucket to install
 software from.
