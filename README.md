@@ -7,8 +7,11 @@ for the following software:
 - PuTTY ([`putty-snapshot`](src/putty-snapshot))
 - Mumble ([`mumble`](src/mumble) and [`mumble-snapshot`](src/mumble-snapshot))
 
-Later, this repository will be usable directly from Scoop as a bucket to install
-software from.
+## Adding this bucket
+
+You can add this bucket to your Scoop installation with this command:
+
+    scoop bucket add icedream https://github.com/icedream/scoop-bucket.git
 
 ## Building the bucket
 
