@@ -6,6 +6,7 @@ for the following software:
 - Mixxx ([`mixxx`](packages/mixxx) and [`mixxx-nightly`](packages/mixxx-nightly))
 - PuTTY ([`putty-snapshot`](packages/putty-snapshot))
 - Mumble ([`mumble`](packages/mumble) and [`mumble-snapshot`](packages/mumble-snapshot))
+- Quassel ([`quassel`](packages/quassel))
 
 ## Adding this bucket
 
