@@ -13,10 +13,9 @@ field autoupdate.url "https://github.com/mumble-voip/mumble/releases/download/\$
 
 field checkver.github https://github.com/mumble-voip/mumble
 
-field bin[0] Mumble\\mumble.exe
+bin Mumble\\mumble.exe
 
-field shortcuts[0][0] Mumble\\mumble.exe
-field shortcuts[0][1] Mumble
+shortcut Mumble\\mumble.exe Mumble
 
 field persist[0][0] Mumble\\mumble.ini
 field persist[0][1] appdata\\mumble.ini

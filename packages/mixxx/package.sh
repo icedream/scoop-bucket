@@ -10,13 +10,9 @@ field homepage https://mixxx.org
 field description "Mixxx is Free DJ software that gives you everything you need to perform live mixes."
 field version "0.0.0"
 
-field bin[0][0] "Mixxx\\mixxx.exe"
-field bin[0][1] "mixxx"
-field bin[0][2] "--settingsPath \"\$persist_dir\\appdata\""
+bin "Mixxx\\mixxx.exe" "mixxx" "--settingsPath \"\$persist_dir\\appdata\""
 
-field shortcuts[0][0] "Mixxx\\mixxx.exe"
-field shortcuts[0][1] "Mixxx"
-field shortcuts[0][2] "--settingsPath \"\$persist_dir\\appdata\""
+shortcut "Mixxx\\mixxx.exe" "Mixxx" "--settingsPath \"\$persist_dir\\appdata\""
 
 field persist appdata
 

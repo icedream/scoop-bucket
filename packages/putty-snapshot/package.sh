@@ -16,18 +16,14 @@ field architecture.\"32bit\".hash ""
 field architecture.\"64bit\".url ""
 field architecture.\"64bit\".hash ""
 
-field bin[0] putty.exe
-field bin[1] puttygen.exe
-field bin[2] pscp.exe
-field bin[3] pageant.exe
-field bin[4] psftp.exe
-field bin[5] plink.exe
+bin putty.exe
+bin puttygen.exe
+bin pscp.exe
+bin pageant.exe
+bin psftp.exe
+bin plink.exe
 
-field shortcuts[0][0] putty.exe
-field shortcuts[0][1] PuTTY
-field shortcuts[1][0] pageant.exe
-field shortcuts[1][1] Pageant
-field shortcuts[2][0] psftp.exe
-field shortcuts[2][1] PSFTP
-field shortcuts[3][0] puttygen.exe
-field shortcuts[3][1] PuTTYgen
+shortcut putty.exe PuTTY
+shortcut pageant.exe Pageant
+shortcut psftp.exe PSFTP
+shortcut puttygen.exe PuTTYgen
