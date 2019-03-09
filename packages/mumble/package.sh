@@ -13,7 +13,7 @@ field autoupdate.url "https://github.com/mumble-voip/mumble/releases/download/\$
 
 field checkver.github https://github.com/mumble-voip/mumble
 
-field bin[0] Mumble\\mumble.exe
+bin Mumble\\mumble.exe
 
 field shortcuts[0][0] Mumble\\mumble.exe
 field shortcuts[0][1] Mumble

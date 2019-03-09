@@ -109,6 +109,24 @@ autofill_download() {
   false
 }
 
+bin() {
+  name="$1"
+  path="$2"
+  args="$3"
+  index="$(jq '.bin|length' <<< "$package_json")"
+  if [ -z "$path" ]
+  then
+    field "bin[$index]" "$name"
+  else
+    field "bin[$index][0]" "$name"
+    field "bin[$index][1]" "$path"
+    if [ -n "$args" ]
+    then
+      field "bin[$index][2]" "$args"
+    fi
+  fi
+}
+
 # shellcheck source=/dev/null
 . "$package_dir/package.sh"
 
