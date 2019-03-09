@@ -127,6 +127,23 @@ bin() {
   fi
 }
 
+shortcut() {
+  name="$1"
+  path="$2"
+  args="$3"
+  index="$(jq '.shortcuts|length' <<< "$package_json")"
+  if [ -z "$path" ]
+  then
+    field "shortcuts[$index]" "$name"
+  else
+    field "shortcuts[$index][0]" "$name"
+    field "shortcuts[$index][1]" "$path"
+    if [ -n "$args" ]
+    then
+      field "shortcuts[$index][2]" "$args"
+    fi
+  fi
+}
 # shellcheck source=/dev/null
 . "$package_dir/package.sh"
 

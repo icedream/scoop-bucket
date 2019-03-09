@@ -23,11 +23,7 @@ bin pageant.exe
 bin psftp.exe
 bin plink.exe
 
-field shortcuts[0][0] putty.exe
-field shortcuts[0][1] PuTTY
-field shortcuts[1][0] pageant.exe
-field shortcuts[1][1] Pageant
-field shortcuts[2][0] psftp.exe
-field shortcuts[2][1] PSFTP
-field shortcuts[3][0] puttygen.exe
-field shortcuts[3][1] PuTTYgen
+shortcut putty.exe PuTTY
+shortcut pageant.exe Pageant
+shortcut psftp.exe PSFTP
+shortcut puttygen.exe PuTTYgen

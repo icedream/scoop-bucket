@@ -12,9 +12,7 @@ field version "0.0.0"
 
 bin "Mixxx\\mixxx.exe" "mixxx" "--settingsPath \"\$persist_dir\\appdata\""
 
-field shortcuts[0][0] "Mixxx\\mixxx.exe"
-field shortcuts[0][1] "Mixxx"
-field shortcuts[0][2] "--settingsPath \"\$persist_dir\\appdata\""
+shortcut "Mixxx\\mixxx.exe" "Mixxx" "--settingsPath \"\$persist_dir\\appdata\""
 
 field persist appdata
 
