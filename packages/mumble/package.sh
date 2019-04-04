@@ -1,5 +1,7 @@
 # shellcheck shell=bash
 
+githubRegex='\/releases\/tag\/(?:v|V)?([\w.\-_]+)'
+
 field description "Open-source voice-over-IP communication client."
 field homepage https://mumble.info
 field license GPL
@@ -9,9 +11,10 @@ field url "_"
 field hash "_"
 
 # field autoupdate.url "https://dl.mumble.info/mumble-<version>.msi"
-field autoupdate.url "https://github.com/mumble-voip/mumble/releases/download/\$version/mumble-\$version.msi#/mumble.bin"
+field autoupdate.url "https://github.com/mumble-voip/mumble/releases/download/\$version/mumble-\$version.winx64.msi#/mumble.bin"
 
-field checkver.github https://github.com/mumble-voip/mumble
+field checkver.url https://github.com/mumble-voip/mumble/releases/latest
+field checkver.re "$githubRegex"
 
 bin Mumble\\mumble.exe
 
