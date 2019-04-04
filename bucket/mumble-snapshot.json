@@ -2,7 +2,7 @@
     "description": "Open-source voice-over-IP communication client. (Snapshot version)",
     "homepage": "https://mumble.info",
     "license": "GPL",
-    "version": "1.3.0.2942-g755c290",
+    "version": "1.3.0.2961-g1ee050a",
     "bin": "Mumble\\mumble.exe",
     "shortcuts": [
         [
@@ -55,12 +55,12 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://dl.mumble.info/mumble-1.3.0~2942~g755c290~snapshot.msi#!/mumble.bin",
-            "hash": "9dca21513586532373c8f1f13dce484d7fb4023b7f3316f8f064c1c374b5d782"
+            "url": "https://dl.mumble.info/mumble-1.3.0~2961~g1ee050a~snapshot.msi#!/mumble.bin",
+            "hash": "3da9651838df2dfae4e0d3a304f62396de835216b292d5eb127985a9470f4486"
         },
         "64bit": {
-            "url": "https://dl.mumble.info/mumble-1.3.0~2942~g755c290~snapshot.winx64.msi#!/mumble.bin",
-            "hash": "711d82955119a734d9f6295df2d443e200d13f8457c893ad8e4f26f80fd5e7ac"
+            "url": "https://dl.mumble.info/mumble-1.3.0~2961~g1ee050a~snapshot.winx64.msi#!/mumble.bin",
+            "hash": "f46a2b6baa3d60d68c9ac6231be0b6ed4008bda865213dc8e2b3cb6d9da3d417"
         }
     },
     "checkver": {
