@@ -2,7 +2,7 @@
     "description": "Open-source voice-over-IP communication client. (Snapshot version)",
     "homepage": "https://mumble.info",
     "license": "GPL",
-    "version": "1.3.0.2961-g1ee050a",
+    "version": "1.3.0.rc1",
     "bin": "Mumble\\mumble.exe",
     "shortcuts": [
         [
@@ -55,26 +55,26 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://dl.mumble.info/mumble-1.3.0~2961~g1ee050a~snapshot.msi#!/mumble.bin",
-            "hash": "3da9651838df2dfae4e0d3a304f62396de835216b292d5eb127985a9470f4486"
+            "url": "https://dl.mumble.info/mumble-1.3.0-rc1.msi#!/mumble.bin",
+            "hash": "1be7db3406108c3c8d516449b4e388ebcaab6c890c2f8e979584d1682c07c15e"
         },
         "64bit": {
-            "url": "https://dl.mumble.info/mumble-1.3.0~2961~g1ee050a~snapshot.winx64.msi#!/mumble.bin",
-            "hash": "f46a2b6baa3d60d68c9ac6231be0b6ed4008bda865213dc8e2b3cb6d9da3d417"
+            "url": "https://dl.mumble.info/mumble-1.3.0-rc1.winx64.msi#!/mumble.bin",
+            "hash": "3826427acea364568c621b0395a3c5abbe670b9ca315b8f16f231aeaf06fcc68"
         }
     },
     "checkver": {
         "url": "https://wiki.mumble.info/wiki/Main_Page",
-        "re": "mumble-(?<version>[\\d\\.]+)~(?<short>\\d+)~g(?<commit>[\\dA-Fa-f]+)~snapshot\\.msi",
-        "replace": "$1.$2-g$3"
+        "re": "<td style=\"background-color: #c7e4ff\">\\s*<a .*href=\"https://(?<base>.+)/(?<filename>mumble\\-(?<version>[\\d\\.]+)(?<delim>~|\\-)(?<short>[a-z\\d]+)(~g(?<commit>[\\dA-Fa-f]+)~snapshot)?)\\.msi\"",
+        "replace": "$4.$6"
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://dl.mumble.info/mumble-$matchVersion~$matchShort~g$matchCommit~snapshot.msi#!/mumble.bin"
+                "url": "https://dl.mumble.info/$matchFilename.msi#!/mumble.bin"
             },
             "64bit": {
-                "url": "https://dl.mumble.info/mumble-$matchVersion~$matchShort~g$matchCommit~snapshot.winx64.msi#!/mumble.bin"
+                "url": "https://dl.mumble.info/$matchFilename.winx64.msi#!/mumble.bin"
             }
         }
     }
