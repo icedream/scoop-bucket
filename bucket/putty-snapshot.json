@@ -2,7 +2,7 @@
     "description": "SSH client for Windows (Snapshot version)",
     "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
     "license": "MIT",
-    "version": "2019-04-04",
+    "version": "2019-04-22",
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -20,11 +20,11 @@
     "architecture": {
         "32bit": {
             "url": "https://tartarus.org/~simon/putty-snapshots/w64/putty.zip",
-            "hash": "b1e7aaed5b7b16cdd6559f37dd0b0be6dc3f1936d34f03bc84c5261a4c30a7e2"
+            "hash": "9b4b9640627dd0689e78d79b3f65800b114b9e27f7605be052867b9c95c25319"
         },
         "64bit": {
             "url": "https://tartarus.org/~simon/putty-snapshots/w64/putty.zip",
-            "hash": "b1e7aaed5b7b16cdd6559f37dd0b0be6dc3f1936d34f03bc84c5261a4c30a7e2"
+            "hash": "9b4b9640627dd0689e78d79b3f65800b114b9e27f7605be052867b9c95c25319"
         }
     },
     "bin": [
