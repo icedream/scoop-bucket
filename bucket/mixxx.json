@@ -1,7 +1,7 @@
 {
     "homepage": "https://mixxx.org",
     "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes.",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "bin": [
         [
             "Mixxx\\mixxx.exe",
@@ -24,12 +24,12 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://downloads.mixxx.org/mixxx-2.2.0/mixxx-2.2.0-win32.exe#!/_setup.exe",
-            "hash": "cee9f7e4a1a6f0f7ba7519176a46d0ccd4cbad744542e118b4ddd2be012d9760"
+            "url": "https://downloads.mixxx.org/mixxx-2.2.1/mixxx-2.2.1-win32.exe#!/_setup.exe",
+            "hash": "f7baab46840eb3e45b43e47f5685efd87fa4af6765f44708376c5cf4ae5ae4d9"
         },
         "64bit": {
-            "url": "https://downloads.mixxx.org/mixxx-2.2.0/mixxx-2.2.0-win64.exe#!/_setup.exe",
-            "hash": "e1c53002b20fc7e841955815372baa1df88ee2bbd987f5098e04507713f43706"
+            "url": "https://downloads.mixxx.org/mixxx-2.2.1/mixxx-2.2.1-win64.exe#!/_setup.exe",
+            "hash": "65d4c02e27320a8a3ff8a22d1c4b4e09704cc88315384ba2d4482d93930afab9"
         }
     },
     "checkver": {
