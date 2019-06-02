@@ -1,6 +1,6 @@
 {
     "description": "Modern, cross-platform, distributed IRC client based on the Qt framework.",
-    "homepage": "https://quassel-irc.info",
+    "homepage": "https://quassel-irc.org",
     "license": "GPL-2.0|GPL-3.0",
     "version": "0.13.1",
     "architecture": {

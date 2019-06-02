@@ -1,7 +1,7 @@
 # shellcheck shell=bash
 
 field description "Modern, cross-platform, distributed IRC client based on the Qt framework."
-field homepage https://quassel-irc.info
+field homepage https://quassel-irc.org
 field license "GPL-2.0|GPL-3.0"
 field version "0.0.0"
 
