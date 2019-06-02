@@ -1,7 +1,7 @@
 {
     "homepage": "https://mixxx.org",
     "description": "Mixxx is Free DJ software that gives you everything you need to perform live mixes.",
-    "version": "2.3.0-alpha-pre-master-git6780",
+    "version": "2.3.0-alpha-pre-master-git6792",
     "bin": [
         [
             "Mixxx\\mixxx.exe",
@@ -24,17 +24,17 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://downloads.mixxx.org/builds/master/release/mixxx-2.3.0-alpha-pre-master-git6780-release-x86.exe#!/_setup.exe",
-            "hash": "3095d51a5f57bb5673d8b468d1b1e8469dec2f90bea56f763c05cd25fe588c9d"
+            "url": "https://downloads.mixxx.org/builds/master/release/mixxx-2.3.0-alpha-pre-master-git6792-release-x86.exe#!/_setup.exe",
+            "hash": "6e905f8c4a6827db5b1e513bf7f6fca5e719b287b6803e2637806db058e1debd"
         },
         "64bit": {
-            "url": "https://downloads.mixxx.org/builds/master/release/mixxx-2.3.0-alpha-pre-master-git6780-release-x64.exe#!/_setup.exe",
-            "hash": "f266e20ea8303084489e69ca5060f723d3721e5289e67c3aeccbd8d56007316d"
+            "url": "https://downloads.mixxx.org/builds/master/release/mixxx-2.3.0-alpha-pre-master-git6792-release-x64.exe#!/_setup.exe",
+            "hash": "e5df669e7aa5f924ed2e982319ae6ac9dde2291d516d2dae7ffcfc912e33d08d"
         }
     },
     "checkver": {
         "url": "https://downloads.mixxx.org/builds/master/release/",
-        "re": "\\bmixxx\\-([\\w.\\-]+\\-git\\d+)\\-release\\b"
+        "re": "\\bmixxx\\-([\\w.\\-]+\\-git\\d+)\\-release-x86\\.exe\\b"
     },
     "autoupdate": {
         "architecture": {
